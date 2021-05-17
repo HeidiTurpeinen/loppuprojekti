@@ -1,0 +1,146 @@
+
+ .footer {
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d8e2dc;
+  color: gray;
+  text-align: center;
+  padding: 30px;
+
+}
+
+h6  {
+	padding-bottom: 20px;
+}
+
+.nav-item a:hover:not(.active) {
+	text-decoration: underline;
+	text-decoration-color: black;
+	color: black;
+}
+
+.active {
+	text-decoration: underline;
+	text-decoration-color: black;
+	color: black;
+}
+
+body	{ 
+	color: #343a40;
+	font-family: Nunito, sans-serif;
+	line-height: 140%;
+	hyphens: auto;
+}
+
+
+main	{	
+	width: 100%;
+	padding: 80px 80px 100px 80px;
+	text-align: center;
+}
+
+
+#sisältö	{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 600px)	{
+	
+	main	{ width: 100%; }
+	
+}
+
+
+h? {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #d8e2dc;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d8e2dc;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+label {
+	color: black;
+}
+
+select {
+	color: #343a40;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.yhteystiedot  {
+	padding-top: 70px;
+	font-size: 18px;
+	line-height: 2.1;
+}
+
+.otsikko  {
+	background-color: #d8e2dc;
+	background-size: cover;
+	background-position: center center;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+h1 {
+	font-family: BioRhyme, sans-serif;
+	color: gray;
+	text-shadow: 1px 1px 1px #b1a7a6;
+	 position: absolute;
+}
+
+.txt  {
+	font-size: 18px;
+}
