@@ -52,13 +52,13 @@
 	</div>
 	</nav>
 	
-	<div class="otsikko">
-		<h1>Palvelut ja hinnasto</h1>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1>Palvelut ja hinnasto</h1>      
+		</div>
 	</div>
 	
 	<div id="sisältö">
-	
-		
 		
 	<main>
 		<h2>Palvelut</h2>
@@ -67,7 +67,7 @@
 			<p>Suspendisse faucibus orci facilisis nulla malesuada, id dictum elit feugiat. Donec commodo leo sed ipsum bibendum, non porta sapien venenatis. Aliquam lobortis massa sit amet sollicitudin mattis. Vivamus arcu elit, bibendum id massa ut, mollis viverra mi. Phasellus ante felis, aliquam quis ligula et, viverra vestibulum sem. Nullam at pellentesque enim. Nam velit neque, faucibus vitae congue eget, interdum et urna.<br><br>
 				Duis hendrerit, ante et ultrices ornare, magna lectus pharetra erat, eget semper ipsum nisi sed tortor. Maecenas erat dui, blandit sed sagittis ut, commodo a eros. Cras sodales mi id orci venenatis placerat. Donec maximus elementum orci eu dictum. Donec quis placerat est. Suspendisse ullamcorper magna facilisis accumsan commodo. Donec vitae tristique elit, vitae finibus odio. Morbi convallis neque id placerat pellentesque. Nullam urna ante, sollicitudin eu dictum at, auctor sit amet libero. Ut pretium justo eget lorem vehicula condimentum.
 			</p>
-			<img class="inspiraatio" src="inspire.jpg" alt="inspiraatio" width="60%">
+			<img class="rounded-circle" src="inspire.jpg" alt="inspiraatio" width="60%">
 			
 			<h4>Palveluiden toteutukset</h4>
 			
@@ -81,10 +81,13 @@
 			<h2>Hinnasto</h2>
 			
 			<table>
+				<thead>
 					  <tr>
 						<th>Palvelu</th>
 						<th>Hinta</th>
 					  </tr>
+				</thead>
+				<tbody>
 					  <tr>
 						<td>Päivä meikki</td>
 						<td>55€</td>
@@ -165,10 +168,11 @@
 						<td>Hiusvärit</td>
 						<td>68-220€</td>
 					  </tr>
-					  <tr>
-						<td>Tuntipalkkaus tapahtumiin / kuvauksiin<td>
+					  <tr id="tuntipalkka">
+						<td>Tuntipalkkaus tapahtumiin / kuvauksiin</td>
 						<td>22€/h</td>
 					  </tr><br><br>
+				</tbody>
 			</table>
 			<hr>
 			
@@ -180,9 +184,21 @@
 			<img class="sivellin" src="sivellin.jpg" alt="sivellin-kuva" width="60%">
 			<p class="teksti1">
 				Cras sodales mi id orci venenatis placerat. Donec maximus elementum orci eu dictum. Donec quis placerat est. Suspendisse ullamcorper magna facilisis accumsan commodo. Donec vitae tristique elit, vitae finibus odio. Morbi convallis neque id placerat pellentesque. Nullam urna ante, sollicitudin eu dictum at, auctor sit amet libero. Ut pretium justo eget lorem vehicula condimentum.<br><br>
-				Cras sodales mi id orci venenatis placerat.<br><br>
+				Cras sodales mi id orci venenatis placerat.<br>
+			</p>
+			
+			<h6><b>Työvaiheet</b></h6>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tortor condimentum lacinia quis. Lobortis elementum nibh tellus molestie nunc non blandit. Blandit aliquam etiam erat velit scelerisque. A arcu cursus vitae congue mauris rhoncus aenean. Semper auctor neque vitae tempus quam. Eu facilisis sed odio morbi quis. Maecenas sed enim ut sem viverra aliquet eget. Tortor condimentum lacinia quis vel eros. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.<br><br>
+				Posuere morbi leo urna molestie. Suspendisse sed nisi lacus sed viverra tellus. Diam donec adipiscing tristique risus. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Cras sed felis eget velit. Ac placerat vestibulum lectus mauris ultrices eros. Pharetra sit amet aliquam id diam maecenas. Sit amet est placerat in egestas erat imperdiet sed euismod. Purus gravida quis blandit turpis cursus in hac habitasse platea. Imperdiet proin fermentum leo vel. Tortor at risus viverra adipiscing at in tellus integer feugiat.<br><br>
+				Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Faucibus a pellentesque sit amet. Quam adipiscing vitae proin sagittis. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Lacus luctus accumsan tortor posuere ac ut consequat. Congue mauris rhoncus aenean vel elit scelerisque. Lobortis mattis aliquam faucibus purus in massa tempor. Dignissim cras tincidunt lobortis feugiat. Maecenas ultricies mi eget mauris pharetra. Quisque id diam vel quam elementum pulvinar etiam non quam. Nulla porttitor massa id neque aliquam. Integer enim neque volutpat ac tincidunt vitae semper quis lectus.<br><br>
+			</p>
+			
+			<h6><b>Hinnoittelu periaate</b></h6>
+			<p>Varius vel pharetra vel turpis nunc eget lorem dolor. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Libero justo laoreet sit amet cursus sit amet dictum. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Facilisis gravida neque convallis a cras semper auctor neque. Congue mauris rhoncus aenean vel elit scelerisque. Lorem mollis aliquam ut porttitor leo a. Est velit egestas dui id ornare arcu odio ut sem. Id diam vel quam elementum pulvinar etiam. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Adipiscing commodo elit at imperdiet. Gravida arcu ac tortor dignissim convallis aenean et tortor. Viverra mauris in aliquam sem fringilla ut morbi.<br><br>
+				In ornare quam viverra orci. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Ac turpis egestas maecenas pharetra convallis. Platea dictumst quisque sagittis purus. Enim ut sem viverra aliquet. Scelerisque in dictum non consectetur a erat nam at lectus. Dignissim sodales ut eu sem integer vitae. Diam sollicitudin tempor id eu. Ac odio tempor orci dapibus ultrices in iaculis nunc. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Mattis enim ut tellus elementum sagittis vitae et leo duis.<br><br>
 			</p>
 			<hr>
+			
 			<h4>Palveluja ammattitaidolla ja korkealla koulutuksella</h4>
 			<p class="teksti2"> 
 			Suspendisse faucibus orci facilisis nulla malesuada, id dictum elit feugiat. Donec commodo leo sed ipsum bibendum, non porta sapien venenatis. Aliquam lobortis massa sit amet sollicitudin mattis. Vivamus arcu elit, bibendum id massa ut, mollis viverra mi.<br><br>
