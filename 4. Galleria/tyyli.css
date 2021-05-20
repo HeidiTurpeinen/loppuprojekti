@@ -6,7 +6,6 @@
   width: 100%;
   background-color: #d8e2dc;
   color: gray;
-  text-align: center;
   padding: 30px;
 
 }
@@ -23,7 +22,7 @@ h6 {
 }
 
 .active {
-	text-decoration: underline;
+	text-decoration: overline;
 	text-decoration-color: black;
 	color: black;
 }
@@ -36,9 +35,10 @@ body	{
 }
 
 
-main	{	width: 100%;
-			padding: 80px 80px 100px 80px;
-			text-align: center;
+main	{	
+	width: 100%;
+	padding: 50px 80px 80px 80px;
+	text-align: center;
 }
 
 aside { 
@@ -111,6 +111,7 @@ h2  {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 800px) {
@@ -127,7 +128,7 @@ h2  {
   }
 }
 
-.otsikko  {
+.jumbotron  {
 	background-color: #d8e2dc;
 	background-size: cover;
 	background-position: center center;
@@ -135,13 +136,18 @@ h2  {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative;
 }
 
 h1 {
+	text-align: center;
 	font-family: BioRhyme, sans-serif;
 	color: gray;
 	text-shadow: 1px 1px 1px #b1a7a6;
-	 position: absolute;
+	
 }
 
+.carousel-inner img {
+    width: 1550px;
+	height: 650px;
+  }
+ 

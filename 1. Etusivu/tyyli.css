@@ -33,16 +33,16 @@ h6 {
 	text-shadow: 1px 1px 1px #b1a7a6;
 	color: #e8e8e4
 }
+
 .nav-item a:hover:not(.active) {
 	text-decoration: underline;
 	text-decoration-color: black;
 	color: black;
-  
 }
 
 .active {
 	color: black;
-	text-decoration: underline;
+	text-decoration: overline;
 	text-decoration-color: #black;
 }
 
@@ -55,7 +55,7 @@ body	{
 
 
 main	{	width: 100%;
-			padding: 80px 80px 100px 80px;
+			padding: 50px 80px 80px 80px;
 			text-align: center;
 }
 
@@ -119,7 +119,7 @@ h3  {
 	padding-bottom: 30px;
 }
 
-.kuvio {
+.jumbotron {
 	background-color: #d8e2dc;
 	background-size: cover;
 	background-position: center center;
@@ -127,14 +127,13 @@ h3  {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative
 }
 
-.lause  {
+h1  {
 	font-family: BioRhyme, sans-serif;
-	position: absolute;
 	text-shadow: 1px 1px 1px #b1a7a6;
 	color: grey;
+	text-align: center;
 }
 
 @media only screen and (max-width: 600px)	{
@@ -142,4 +141,16 @@ h3  {
 	.kuva	{ width: 100%;}
 	.hää { width: 100%; }
 	.toda { width: 100%; }
+}
+
+.btn {
+	color: #34312d;
+	background-color: #d8e2dc;
+	padding: 17px;
+	box-shadow: 1px 1px grey;
+}
+
+.btn:hover {
+	color: black;
+	background-color: #c4cdc8;
 }
