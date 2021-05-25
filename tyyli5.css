@@ -1,3 +1,4 @@
+<<<<<<< HEAD:tyyli5.css
 
  .footer {
   text-align: center;
@@ -137,4 +138,145 @@ h1 {
 
 .txt  {
 	font-size: 18px;
+=======
+
+ .footer {
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d8e2dc;
+  color: gray;
+  padding: 30px;
+
+}
+
+h6  {
+	padding-bottom: 20px;
+}
+
+.nav-item a:hover:not(.active) {
+	text-decoration: underline;
+	text-decoration-color: black;
+	color: black;
+}
+
+.active {
+	text-decoration: overline;
+	text-decoration-color: black;
+	color: black;
+}
+
+body	{ 
+	color: #343a40;
+	font-family: Nunito, sans-serif;
+	line-height: 140%;
+	hyphens: auto;
+}
+
+
+main	{	
+	width: 100%;
+	padding: 50px 80px 80px 80px;
+	text-align: center;
+}
+
+
+#sisältö	{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 600px)	{
+	
+	main	{ width: 100%; }
+	
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #d8e2dc;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #c4cdc8;
+  color: black;
+
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+label {
+	color: black;
+}
+
+select {
+	color: #343a40;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.yhteystiedot  {
+	padding-top: 70px;
+	font-size: 18px;
+	line-height: 2.1;
+	text-align: center;
+}
+
+.jumbotron  {
+	background-color: #d8e2dc;
+	background-size: cover;
+	background-position: center center;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: BioRhyme, sans-serif;
+	color: gray;
+	text-shadow: 1px 1px 1px #b1a7a6;
+	text-align: center;
+}
+
+.txt  {
+	font-size: 18px;
+>>>>>>> dd864a0b458c5c9494294570b48fb81f897953fd:5. Yhteystiedot/tyyli.css
 }
